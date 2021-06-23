@@ -1,0 +1,32 @@
+body{
+  background-color: #292828;
+  margin: 10px;
+}
+.navbar{ 
+  margin-bottom: 15px;
+}
+
+
+.navbar> a {
+  float: left;
+  color: #61dbfb; /* Must be slightly transparent for effect to work */
+  font: bold 14px/14px 'Sigmar One', sans-serif;
+  margin-left: 5px;
+  text-align: center;
+  text-shadow: 0 3px 7px #000, 0 0 0 #000;
+
+}
+
+.navbar>a:hover{
+  color: #f10f66
+}
+
+.navbar>.logo{
+  float: right;
+   color: #61dbfb; /* Must be slightly transparent for effect to work */
+  font: bold 14px/14px 'Sigmar One', sans-serif;
+  margin-left: 5px;
+  text-align: center;
+  text-shadow: 0 3px 7px #000, 0 0 0 #000;
+}
+

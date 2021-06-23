@@ -1,0 +1,26 @@
+
+.catalog>span{
+    float: right;
+    color: blanchedalmond;
+}
+.display{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+
+
+.search{
+    font-family:Arial, FontAwesome;
+    border: none;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 5px;
+    padding: 2px;
+    color: rgba(236, 240, 241,1);
+}
+
+input:focus{
+    outline: none;
+}

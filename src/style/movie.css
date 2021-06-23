@@ -1,0 +1,36 @@
+
+.movie{
+    display: grid;    
+    height: 250px;
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black;
+    position: relative;
+}
+
+.movie>p{
+    display: none;
+    margin: 0;
+    font-size: 1.5em;
+    color: #ecf0f1;
+    text-shadow: 1px 1px 3px black;
+    position: absolute;
+    bottom: 0;
+}
+
+.movie>i{
+    margin: 0;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    color:white; 
+    text-shadow: 1px 1px 3px black;
+    z-index: 100;
+}
+
+.movie:hover p{
+    display: flex;
+}
